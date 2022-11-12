@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+body{
+background-color: aliceblue;
+margin:0;
+font-family: 'Gugi', cursive;
+}
+
+
+.main-container{
+    background-color:aliceblue;
+    width:100%;
+    height:600px;
+}
+
+
+.leftCorner {
+    height:500px;
+}
+
+
+.header-container{
+    background-color:rgb(15, 120, 188);
+    font-size: 30px;
+    color: rgb(255, 223, 119);
+    width: 100%;
+}
+
+
+.arena{
+    background-image: url("https://www.cobalt.net/wp-content/uploads/2021/02/AdobeStock_232809240-1024x768.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:400px; 
+}
+
+
+.playerCorner{
+    height:550px;
+    width: 450px;
+}
+
+.playerScore{
+    height:50px;
+    width:100%;
+    margin-bottom: 30px;
+}
+
+#playerHeader {
+    background-color: rgba(18, 17, 17, 0.18);
+}
+
+
+#displayPlayerScore, #displayBotScore{
+    font-size: 50px;
+    color:rgb(231, 244, 54);
+}
+
+
+.playerPics img{
+    width: 250px;
+    height:100px;
+  
+} 
+
+.playerPics img:hover{
+    background-color: rgba(138, 210, 210,0.50);
+    width: 250px;
+    height:100px;
+    border-radius: 0 20px 20px 0; 
+  }
+
+.botCorner{
+    height:550px;
+    width: 450px;
+}
+
+
+.botScore{
+    height:50px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#botHeader{
+    background-color: rgba(18, 17, 17, 0.18);
+}
+
+
+.botImg img{
+    height:250px;
+} 
+
+.botPick{
+    width: 100%;
+    height:50px;
+    text-align: center; 
+    height:50px;
+    font-size: 30px;
+} 
+
+
+#displayBotAnswer{
+    color:rgb(231, 244, 54);
+}
+
+.result{
+    background-color: rgb(15, 120, 188);
+    width: 100%;
+    height:55px;
+}
+
+#displayResult{
+    font-size: 30px;
+    text-align: center;
+    color: white;   
+}
+
+
+.rightCorner {
+    background-color: rgb(74, 27, 97);
+    height:500px;
+} 
+
+
+.gameHistoryHeader{
+    background-color: rgba(15, 120, 188,0.90);
+    color: white;
+    width: 100%;
+    height:45px;
+}
+
+
+.gameList {
+    background-color: rgb(255, 223, 119);
+    width: 100%;
+    height:500px;
+}
+            
+
+#gameHistory li{
+    list-style-type: none;
+    font-family: 'Gugi', cursive;
+    
+}
+
+
+
+@media (max-width:760px){
+
+    .rightCorner {
+        width:100%; 
+    } 
+
+    .leftCorner {
+        width:100%;
+        height:500px;
+    } 
+
+    .header-container{
+        font-size: 15px;
+    }
+    
+    .arena{
+        background-image:url("https://image.freepik.com/free-vector/blue-comic-style-background_110405-46.jpg") ;
+        width: 100%;
+        height:400px; 
+    }
+
+    .playerCorner{
+        height:100px;
+        width: 100%;
+    }
+
+    .playerPics{
+        display:flex;
+        justify-content: center;
+        margin-top: 20px;
+    } 
+
+    .playerPics img{
+        width: 90px;
+        height:50px;
+        margin-bottom: 60px;
+    } 
+
+    .playerPics img:hover{
+        background-color: rgba(138, 210, 210,0.50);
+        width: 90px;
+        height:50px;
+        border-radius: 0 0 0 0; 
+    }
+
+    .botCorner{
+        height:100px;
+        width: 100%;
+    }
+    
+    .botPick{
+        font-size: 20px;
+    } 
+
+    .botImg img{
+        width: 100px;
+        height:100px;
+        margin-top: 20px;
+       
+    } 
+
+
+} 
